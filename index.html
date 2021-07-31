@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive website food</title>
+  </head>
+  <body>
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-chevron-up scrolltop__icon"></i>
+    </a>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">KSO</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+            <li class="nav__item">
+              <a href="#menu" class="nav__link">Players</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact us</a>
+            </li>
+
+            <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--========== HOME ==========-->
+      <section class="home" id="home">
+        <div class="home__container bd-container bd-grid">
+          <div class="home__data">
+            <h1 class="home__title">Let's play</h1>
+            <h2 class="home__subtitle">
+              Connect with us to play international
+              soccer.
+            </h2>
+            <a href="#menu" class="button">View players</a>
+          </div>
+
+          <img src="img/Headerpic.jpg" alt="" class="home__img" />
+        </div>
+      </section>
+
+      <!--========== ABOUT ==========-->
+      <section class="about section bd-container" id="about">
+        <div class="about__container bd-grid">
+          <div class="about__data">
+            <span class="section-subtitle about__initial">About us</span>
+            <h2 class="section-title about__initial">
+              We match the best players with
+              great clubs
+            </h2>
+            <p class="about__description">
+              We are kingdom Soccer Outreach; we find great players, train and match them with reputable clubs across the globe.
+            </p>
+            <a href="#" class="button">Read More</a>
+          </div>
+
+          <img src="img/Aboutpic.jpg" alt="" class="about__img" />
+        </div>
+      </section>
+
+      <!--========== MENU ==========-->
+      <section class="menu section bd-container" id="menu">
+        <span class="section-subtitle">Special</span>
+        <h2 class="section-title">Featured Players</h2>
+
+        <div class="menu__container bd-grid">
+          <div class="menu__content">
+            <img src="img/player3.jpg" alt="" class="menu__img" />
+            <h3 class="menu__name">Mark Doe</h3>
+            <span class="menu__detail">Defender</span>
+            <span class="menu__preci"></span>
+            <a href="#" class="button menu__button"
+              ><i class='bx bx-right-arrow-alt'></i
+            ></a>
+          </div>
+
+          <div class="menu__content">
+            <img src="img/player2.jpg" alt="" class="menu__img" />
+            <h3 class="menu__name">John Doe</h3>
+            <span class="menu__detail">Attacker</span>
+            <span class="menu__preci"></span>
+            <a href="#" class="button menu__button"
+              ><i class='bx bx-right-arrow-alt'></i
+            ></a>
+          </div>
+
+          <div class="menu__content">
+            <img src="img/player3.jpg" alt="" class="menu__img" />
+            <h3 class="menu__name">liam Doe</h3>
+            <span class="menu__detail">Attacker</span>
+            <span class="menu__preci"></span>
+            <a href="#" class="button menu__button"
+              ><i class='bx bx-right-arrow-alt'></i
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <!--===== APP =======-->
+      <section class="app section bd-container">
+        <div class="app__container bd-grid">
+          <div class="app__data">
+            <span class="section-subtitle app__initial">Players Shop</span>
+            <h2 class="section-title app__initial">Introducing the Players Shop</h2>
+            <p class="app__description">
+              The players shop is a platform where every player can share their soccer skills
+              and talent to the world, with a reach of 100 agents across the world.
+            </p>
+            <div class="app__stores">
+              <a href="#"
+                ><img src="img/app1.png" alt="" class="app__store"
+              /></a>
+              <a href="#"
+                ><img src="img/app2.png" alt="" class="app__store"
+              /></a>
+            </div>
+          </div>
+
+          <img src="img/mockup.png" alt="" class="app__img" />
+        </div>
+      </section>
+
+      <!--========== CONTACT US ==========-->
+      <section class="contact section bd-container" id="contact">
+        <div class="contact__container bd-grid">
+          <div class="contact__data">
+            <span class="section-subtitle contact__initial">Let's talk</span>
+            <h2 class="section-title contact__initial">Contact us</h2>
+            <p class="contact__description">
+              Have any questions? please do reach out to us and we will reply you as soon as possible
+            </p>
+          </div>
+
+          <div class="contact__button">
+            <a href="#" class="button">Contact us</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+      <div class="footer__container bd-grid">
+        <div class="footer__content">
+          <a href="#" class="footer__logo">Kingdom Soccer Outreach</a>
+          <span class="footer__description">Agency</span>
+          <div>
+            <a href="#" class="footer__social"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="#" class="footer__social"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="#" class="footer__social"
+              ><i class="bx bxl-twitter"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Services</h3>
+          <ul>
+            <li><a href="#" class="footer__link">Scouting</a></li>
+            <li><a href="#" class="footer__link">Matching</a></li>
+            <li><a href="#" class="footer__link">Exposure</a></li>
+            <li><a href="#" class="footer__link">Join us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Information</h3>
+          <ul>
+            <li><a href="#" class="footer__link">Event</a></li>
+            <li><a href="#" class="footer__link">Contact us</a></li>
+            <li><a href="#" class="footer__link">Privacy policy</a></li>
+            <li><a href="#" class="footer__link">Terms of services</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Address</h3>
+          <ul>
+            <li>Port Harcourt - Nigeria</li>
+            <li>Jr Union #999</li>
+            <li</li>
+            <li>kso@email.com</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="footer__copy">&#169; 2021 Kingdom Soccer Outreach. All right reserved</p>
+    </footer>
+
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
